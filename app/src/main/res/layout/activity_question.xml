@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F0F4C3">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:progress="10"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Question Text"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#7C8FEF"
+        android:textStyle="bold"
+        android:id="@+id/questionText"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1 / 10"
+        android:gravity="center"
+        android:id="@+id/questionProgress"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option a"
+            android:layout_marginTop="30dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:id="@+id/aButton"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option b"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:id="@+id/bButton"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option c"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:id="@+id/cButton"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option d"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:id="@+id/dButton"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="hint"
+        android:id="@+id/hintButton"
+        android:background="#FFF"
+        android:visibility="visible"
+        />
+
+
+</LinearLayout>

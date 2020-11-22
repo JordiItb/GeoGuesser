@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F2BB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/image"
+        />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/startButton"
+        android:text="@string/start"
+        android:background="#FFF"
+        android:layout_marginTop="130dp"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_toEndOf="@id/image" />
+
+        <Button
+            android:id="@+id/quitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/quit"
+            android:layout_toRightOf="@id/image"
+            android:layout_below="@id/startButton"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_toEndOf="@id/image"/>
+
+
+
+
+</RelativeLayout>

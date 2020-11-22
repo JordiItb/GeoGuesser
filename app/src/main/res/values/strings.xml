@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">GeoGuesser</string>
+
+    <string name="start">Start</string>
+    <string name="quit">Quit</string>
+
+
+    <string name="q1">Question 1 / 10</string>
+    <string name="q2">Question 2 / 10</string>
+    <string name="q3">Question 3 / 10</string>
+    <string name="q4">Question 4 / 10</string>
+    <string name="q5">Question 5 / 10</string>
+    <string name="q6">Question 6 / 10</string>
+    <string name="q7">Question 7 / 10</string>
+    <string name="q8">Question 8 / 10</string>
+    <string name="q9">Question 9 / 10</string>
+    <string name="q10">Question 10 / 10</string>
+
+
+    <string name="qt1">Where is London located?</string>
+    <string name="qt2">Which city in the UK is the most northern one?</string>
+    <string name="qt3">Where is Amsterdam located?</string>
+    <string name="qt4">Where are kangoroos most comonly seen?</string>
+    <string name="qt5">Which country is above the UK</string>
+    <string name="qt6">Where are pandas from?</string>
+    <string name="qt7">Which continent is the smaller?</string>
+    <string name="qt8">What is the most westerly city in the UK?</string>
+    <string name="qt9">Which country is below the UK?</string>
+    <string name="qt10">Which country is between France and Germany</string>
+
+
+    <string name="h1">B</string>
+    <string name="h2">B</string>
+    <string name="h3">C</string>
+    <string name="h4">A</string>
+    <string name="h5">A</string>
+    <string name="h6">A</string>
+    <string name="h7">C</string>
+    <string name="h8">A</string>
+    <string name="h9">A</string>
+    <string name="h10">C</string>
+
+
+
+    <string name="a1">Spain</string>
+    <string name="a2">Paris</string>
+    <string name="a3">France</string>
+    <string name="a4">Australia</string>
+    <string name="a5">Iceland</string>
+    <string name="a6">China</string>
+    <string name="a7">Japan</string>
+    <string name="a8">Edinburgh</string>
+    <string name="a9">France</string>
+    <string name="a10">Las Vegas</string>
+
+    <string name="b1">United Kingdom</string>
+    <string name="b2">Edinburgh</string>
+    <string name="b3">Luxemburg</string>
+    <string name="b4">China</string>
+    <string name="b5">Germany</string>
+    <string name="b6">Korea</string>
+    <string name="b7">Africa</string>
+    <string name="b8">Essex</string>
+    <string name="b9">India</string>
+    <string name="b10">Netherlands</string>
+
+    <string name="c1">Los Angeles</string>
+    <string name="c2">East Riding</string>
+    <string name="c3">Netherlands</string>
+    <string name="c4">Europe</string>
+    <string name="c5">Greenland</string>
+    <string name="c6">Thailand</string>
+    <string name="c7">Australia</string>
+    <string name="c8">Angus</string>
+    <string name="c9">Germany</string>
+    <string name="c10">Luxemburg</string>
+
+    <string name="d1">Poland</string>
+    <string name="d2">Cornwall</string>
+    <string name="d3">North Macedonia</string>
+    <string name="d4">America</string>
+    <string name="d5">Denmark</string>
+    <string name="d6">Italy</string>
+    <string name="d7">Asia</string>
+    <string name="d8">Highland</string>
+    <string name="d9">Spain</string>
+    <string name="d10">Switzerland</string>
+
+
+</resources>
